@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.main-container {
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.flex-item {
+    flex: auto;
+    border: solid black 1px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.font-included {
+    font-family: 'Helvetica', sans-serif;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('path/to/your/custom-font.woff2') format('woff2'),
+         url('path/to/your/custom-font.woff') format('woff');
+}
+
+.font-imported {
+    font-family: 'CustomFont', sans-serif;
+}
+
+.font-from-service {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-play {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.font-variants {
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+.line-height {
+    line-height: 2;
+}
